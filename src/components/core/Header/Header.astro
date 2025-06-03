@@ -1,0 +1,16 @@
+---
+import { Image } from 'astro:assets';
+import Logo from '@assets/Logo.svg';
+import { BackButton } from '@components/core';
+
+const { backbtn } = Astro.props
+---
+
+<div class="w-full flex items-center p-5 fixed top-0 gap-6">
+  <Image src={Logo} alt="" height={50} width={50} />
+  {
+    backbtn && (
+      <BackButton url="/" />
+    )
+  }
+</div>

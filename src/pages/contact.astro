@@ -1,0 +1,26 @@
+---
+import Layout from "src/layouts/Layout.astro"
+import { Header, Footer, Card } from '@components/core';
+import { ContactForm } from "@components/pages/Contact";
+import { Image } from "astro:assets";
+import Ilustracion from '@assets/Ilustracion.svg';
+---
+
+<Layout>
+  <div class="w-full min-h-screen flex flex-col">
+    <Header backbtn={true} />
+    <div class="mt-20 grow">
+      <div class="w-full ml-4">
+        <h1 class="text-[2rem] font-bold italic">Contacto</h1>
+      </div>
+      <Card className="m-auto mt-20 flex flex-col gap-6 p-6">
+        <div class="flex gap-2 items-center">
+          <Image src={Ilustracion} alt="" width={50} height={50} />
+          <h2 class="text-[1.5rem]">nophic.studio</h2>
+        </div>
+        <ContactForm />
+      </Card>
+    </div>
+    <Footer />
+  </div>
+</Layout>

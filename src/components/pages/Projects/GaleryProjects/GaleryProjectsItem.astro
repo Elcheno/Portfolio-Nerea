@@ -1,0 +1,11 @@
+---
+import "./GaleryProjectsItem.css";
+
+const { url, img, name } = Astro.props;
+---
+
+<a href={url} 
+  class="galery-item">
+  <img src={img} alt={name} class="transition-all" />
+  <div class="galery-item-name">{name}</div>
+</a>

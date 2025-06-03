@@ -1,0 +1,35 @@
+---
+import { Image } from 'astro:assets';
+import Ilustracion from '@assets/Ilustracion.svg';
+import RedesInsta from '@assets/RedesInsta.svg';
+import RedesBehance from '@assets/RedesBehance.svg';
+---
+<section class="w-full">
+  <div class="w-[75%] m-auto flex gap-4">
+    <section class="flex flex-col gap-4 align-center justify-center">
+      <div>
+        <h2 class="text-[2rem] italic font-bold">Nerea Pérez</h2>
+      </div>
+      <div>
+        <p class="text-[1.1rem]">
+          Mi nombre es Nerea Pérez, y soy diseñadora gráfica.<br/>Mi pasión es resolver problemas a través del diseño, combinando creatividad y estrategia para crear mensajes visuales que comunican.
+        </p>
+      </div>
+      <div class="flex gap-4">
+        <a href="#">
+          <Image
+          class="hover:cursor-pointer hover:scale-[1.1] transition-transform"
+          src={RedesInsta} alt="" width={40} height={40} />
+        </a>
+        <a href="#">
+          <Image 
+          class="hover:cursor-pointer hover:scale-[1.1] transition-transform"
+          src={RedesBehance} alt="" width={40} height={40} />
+        </a>
+      </div>
+    </section>
+    <section>
+      <Image src={Ilustracion} alt="" />
+    </section>
+  </div>
+</section>

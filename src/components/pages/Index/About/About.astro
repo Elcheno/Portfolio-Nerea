@@ -1,0 +1,26 @@
+---
+import { Image } from 'astro:assets';
+import Foto from '@assets/Foto.svg';
+---
+
+<section id="about" class="w-full h-screen flex items-center justify-center">
+  <div class="w-[75%] m-auto flex gap-24 items-center justify-center">
+
+    <div>
+      <Image src={Foto} alt="" width={1200} />
+    </div>
+
+    <div class="flex flex-col gap-8 justify-center">
+      <div>
+        <h2 class="text-[2rem] italic font-bold">Sobre mi</h2>
+      </div>
+  
+      <div>
+        <p class="text-[1.1rem]">
+          Siempre me ha llamado la atención el mundo del arte, por lo que decidí cursar el bachillerato artístico. Actualmente sigo avanzando en mi formación en diseño gráfico, ampliando mis conocimientos en la escuela de Granada “Estación Diseño”.<br/>Me gusta mucho la tipografía, el branding y el diseño digital. Me inclino por un estilo minimalista, prefiero el diseño limpio y claro. Mi enfoque es entender las necesidades del cliente y crear soluciones que no solo sean estéticas, sino también funcionales. Cada proyecto es una oportunidad para crecer y aprender.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>

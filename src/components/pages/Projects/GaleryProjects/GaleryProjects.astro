@@ -1,0 +1,20 @@
+---
+import GaleryProjectsItem from "./GaleryProjectsItem.astro"
+
+const items = Array.from({length: 4}, (_, i) => i + 1)
+---
+
+<section class="w-full flex flex-col gap-4 p-4">
+  <div class="w-full">
+    <h1 class="text-[1.75rem] font-bold italic ">Proyectos</h1>
+  </div>
+  <div class="grid grid-cols-4 gap-2">
+
+    {
+      items.map(() => (
+        <GaleryProjectsItem url="#" img="https://nophicstudio.estaciondiseno.es/wp-content/uploads/2025/05/Sin-titulo-1_Mesa-de-trabajo-1-copia-2.svg" name="Item" />
+      ))
+    }
+
+  </div>
+</section>
