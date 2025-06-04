@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Espécimen Century Gothic",
     "description": "Description 1",
-    "image": "CENTURY.png",
+    "image": "CENTURY.webp",
     "link": "/espcentury",
     "carrusel": true,
     "carrusel_images": []
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Retrato",
     "description": "Description 1",
-    "image": "RETRATO.png",
+    "image": "RETRATO.webp",
     "link": "/retrato",
     "carrusel": true,
     "carrusel_images": []
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Vinilo Jay Wheeler",
     "description": "Description 1",
-    "image": "JAYWHEELER.png",
+    "image": "JAYWHEELER.webp",
     "link": "/jaywheeler",
     "carrusel": true,
     "carrusel_images": []
@@ -30,7 +30,7 @@
     "id": 4,
     "name": "Camiseta Mago de Oz",
     "description": "Description 1",
-    "image": "CAMISETABLANCA_MAGODEOZ.png",
+    "image": "CAMISETABLANCA_MAGODEOZ.webp",
     "link": "/camimagodeoz",
     "carrusel": true,
     "carrusel_images": []
@@ -39,7 +39,7 @@
     "id": 5,
     "name": "Camiseta BadBunny",
     "description": "Description 1",
-    "image": "CAMISETANEGRA_BADBU.png",
+    "image": "CAMISETANEGRA_BADBU.webp",
     "link": "/camibadbunny",
     "carrusel": true,
     "carrusel_images": []
@@ -48,7 +48,7 @@
     "id": 6,
     "name": "Locura Azteca",
     "description": "Description 1",
-    "image": "LocuraAzteca1.jpg",
+    "image": "LocuraAzteca1.webp",
     "link": "/locurazteca",
     "carrusel": true,
     "carrusel_images": []
@@ -57,7 +57,7 @@
     "id": 7,
     "name": "Publicidad Vodka",
     "description": "Description 1",
-    "image": "Foto_Final_Vodka.jpg",
+    "image": "Foto_Final_Vodka.webp",
     "link": "/fotovodka",
     "carrusel": true,
     "carrusel_images": []
@@ -66,7 +66,7 @@
     "id": 8,
     "name": "Packaging Maracaba",
     "description": "Description 1",
-    "image": "MARACABA.png",
+    "image": "MARACABA.webp",
     "link": "/maracaba",
     "carrusel": true,
     "carrusel_images": []
@@ -75,7 +75,7 @@
     "id": 9,
     "name": "Packaging Apolo",
     "description": "Description 1",
-    "image": "Mockup_CajaApolo.jpg",
+    "image": "Mockup_CajaApolo.webp",
     "link": "/apolo",
     "carrusel": true,
     "carrusel_images": []
@@ -84,7 +84,7 @@
     "id": 10,
     "name": "Lowpoly Rosalía",
     "description": "Description 1",
-    "image": "lowpoly_rosalia.png",
+    "image": "lowpoly_rosalia.webp",
     "link": "/lowpolyrosalia",
     "carrusel": true,
     "carrusel_images": []
@@ -93,7 +93,7 @@
     "id": 11,
     "name": "Retrato",
     "description": "Description 1",
-    "image": "RETRARODORIAN_LIBRO.png",
+    "image": "RETRARODORIAN_LIBRO.webp",
     "link": "/retrarodorian",
     "carrusel": true,
     "carrusel_images": []
@@ -102,7 +102,7 @@
     "id": 12,
     "name": "Vinilo Mujerez",
     "description": "Description 1",
-    "image": "VINILO1.png",
+    "image": "MOCKUP_VINILO_TRASERA.webp",
     "link": "/vinilomujerez",
     "carrusel": true,
     "carrusel_images": []
@@ -111,7 +111,7 @@
     "id": 13,
     "name": "Bolsa",
     "description": "Description 1",
-    "image": "BOLSA1.png",
+    "image": "BOLSA1.webp",
     "link": "/bolsa",
     "carrusel": true,
     "carrusel_images": []
