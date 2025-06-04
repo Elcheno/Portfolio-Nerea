@@ -5,8 +5,11 @@
     "description": "Description 1",
     "image": "CENTURY.webp",
     "link": "/espcentury",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": ["CENTURY.webp", "CENTURY2.webp"],
+    "networks": {
+      "behance": ""
+    }
   },
     {
     "id": 2,
@@ -14,17 +17,23 @@
     "description": "Description 1",
     "image": "RETRATO.webp",
     "link": "/retrato",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": ["RETRATO.webp", "RETRATO2.webp", "RETRATO3.webp"],
+    "networks": {
+      "behance": ""
+    }
   },
   {
     "id": 3,
     "name": "Vinilo Jay Wheeler",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "JAYWHEELER.webp",
     "link": "/jaywheeler",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": ["JAYWHEELER.webp", "JHAYWHEELER3.webp"],
+    "networks": {
+      "behance": "https://www.behance.net/gallery/201213551/Portada-Vinilo-Jay-Wheeler"
+    }
   },
   {
     "id": 4,
@@ -32,8 +41,11 @@
     "description": "Description 1",
     "image": "CAMISETABLANCA_MAGODEOZ.webp",
     "link": "/camimagodeoz",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
   },
   {
     "id": 5,
@@ -41,26 +53,35 @@
     "description": "Description 1",
     "image": "CAMISETANEGRA_BADBU.webp",
     "link": "/camibadbunny",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
   },
   {
     "id": 6,
     "name": "Locura Azteca",
     "description": "Description 1",
-    "image": "LocuraAzteca1.webp",
+    "image": "LocuraAzteca7.webp",
     "link": "/locurazteca",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
   },
   {
     "id": 7,
     "name": "Publicidad Vodka",
     "description": "Description 1",
-    "image": "Foto_Final_Vodka.webp",
+    "image": "VODKA.webp",
     "link": "/fotovodka",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
   },
   {
     "id": 8,
@@ -68,8 +89,11 @@
     "description": "Description 1",
     "image": "MARACABA.webp",
     "link": "/maracaba",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
   },
   {
     "id": 9,
@@ -77,8 +101,11 @@
     "description": "Description 1",
     "image": "Mockup_CajaApolo.webp",
     "link": "/apolo",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
   },
   {
     "id": 10,
@@ -86,8 +113,11 @@
     "description": "Description 1",
     "image": "lowpoly_rosalia.webp",
     "link": "/lowpolyrosalia",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
   },
   {
     "id": 11,
@@ -95,17 +125,23 @@
     "description": "Description 1",
     "image": "RETRARODORIAN_LIBRO.webp",
     "link": "/retrarodorian",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
   },
   {
     "id": 12,
     "name": "Vinilo Mujerez",
     "description": "Description 1",
-    "image": "MOCKUP_VINILO_TRASERA.webp",
+    "image": "VINILO1.webp",
     "link": "/vinilomujerez",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
   },
   {
     "id": 13,
@@ -113,7 +149,10 @@
     "description": "Description 1",
     "image": "BOLSA1.webp",
     "link": "/bolsa",
-    "carrusel": true,
-    "carrusel_images": []
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
   }
 ]

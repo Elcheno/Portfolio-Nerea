@@ -6,8 +6,8 @@ import { BackButton } from '@components/core';
 const { backbtn } = Astro.props
 ---
 
-<div class="w-full flex items-center p-5 fixed top-0 gap-6 z-5">
-  <Image src={Logo} alt="" height={50} width={50} loading="lazy" />
+<div class="w-full flex items-center p-12 fixed top-0 gap-6 z-5">
+  <a href="/"><Image src={Logo} alt="" height={50} width={50} loading="lazy" /></a>
   {
     backbtn && (
       <BackButton url="/" />
