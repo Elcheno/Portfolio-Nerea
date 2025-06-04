@@ -1,5 +1,6 @@
 .galery-item {
   position: relative;
+  display: flex;
 }
 
 .galery-item:hover img {
@@ -21,4 +22,8 @@
 
 .galery-item:hover .galery-item-name {
   opacity: 1;
+}
+
+.galery-item img {
+  object-fit: cover;
 }

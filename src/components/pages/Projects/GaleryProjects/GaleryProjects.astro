@@ -1,7 +1,7 @@
 ---
 import GaleryProjectsItem from "./GaleryProjectsItem.astro"
+import projects from "@services/projects.json"
 
-const items = Array.from({length: 4}, (_, i) => i + 1)
 ---
 
 <section class="w-full flex flex-col gap-4 p-4">
@@ -11,8 +11,10 @@ const items = Array.from({length: 4}, (_, i) => i + 1)
   <div class="grid grid-cols-4 gap-2">
 
     {
-      items.map(() => (
-        <GaleryProjectsItem url="#" img="https://nophicstudio.estaciondiseno.es/wp-content/uploads/2025/05/Sin-titulo-1_Mesa-de-trabajo-1-copia-2.svg" name="Item" />
+      projects.map(project => (
+        <GaleryProjectsItem
+          project={project}
+        />
       ))
     }
 
