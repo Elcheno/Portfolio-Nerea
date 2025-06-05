@@ -3,13 +3,12 @@ import ItemGalery from "./ItemGalery.astro"
 import { Button } from "@components/core";
 import projectsList from "@services/projects.json";
 
-const projects_Ids = [3, 8, 5, 6, 7];
+const projects_Ids = [3, 8, 5, 2, 7];
 const projects = projectsList.filter(project => projects_Ids.includes(project.id));
 ---
 
 <div class="mt-32 w-full flex flex-col gap-12 justify-center items-center">
   <section class="section-galery flex w-full h-[420px] relative">
-    <ItemGalery url="#" img="https://nophicstudio.estaciondiseno.es/wp-content/uploads/2025/05/Sin-titulo-1_Mesa-de-trabajo-1-copia-2.svg" name="Track | Diseño editorial"/>
     {
       projects.map(project => (
         <ItemGalery project={project}/>

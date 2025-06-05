@@ -1,14 +1,14 @@
 ---
 import "./About.css";
 import { Image } from 'astro:assets';
-import Foto from '@assets/Foto.svg';
+import Foto2 from '@assets/Foto2.webp';
 ---
 
-<section id="about" class="w-full h-screen flex items-center justify-center">
-  <div class="w-[75%] m-auto flex gap-24 items-center justify-center">
+<section id="about" class="w-full h-screen flex items-center justify-center mt-25 md:mt-0">
+  <div class="w-[90%] lg:w-[75%] m-auto flex flex-col md:flex-row md:gap-24 items-center justify-center">
 
     <div>
-      <Image src={Foto} alt="" class="w-[50rem]" />
+      <Image src={Foto2} alt="" class="w-[50rem]" />
     </div>
 
     <div class="flex flex-col gap-4 justify-center">

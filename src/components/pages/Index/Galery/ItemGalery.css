@@ -27,21 +27,20 @@
 }
 
 .img_btn_galery {
-position: absolute;
-bottom: 50px;
-left:45%;
-width: 50px;
-height: 50px;
-opacity: 0;
-pointer-events: none;
-transition: opacity 0.4s ease;
-z-index: 2;
-display: block;
+  position: absolute;
+  bottom: 50px;
+  left:45%;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 2;
+  display: block;
 }
 
 a.item:hover .img_btn_galery {
-opacity: 1;
-pointer-events: auto;
+  pointer-events: auto;
 }
 
 .item .img_btn_galery svg {
@@ -51,17 +50,7 @@ pointer-events: auto;
   display: block;
   animation: none;
   color: rgba(2 55, 255, 255, 0.711);
-}
-
-.item .img_btn_galery svg {
-width: 100%;
-height: 100%;
-object-fit: contain;
-display: block;
-animation: vibrate 0.9s infinite ease-in-out;
-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6)) 
-        drop-shadow(0 0 20px rgba(255, 255, 255, 0.4)) 
-        drop-shadow(0 0 40px rgba(255, 255, 255, 0.2));
+  opacity: 0;
 }
 
 .title_galery {
@@ -75,8 +64,8 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6))
   opacity: 0;
 }
 
-.section-galery a:hover .title_galery {
-  animation: opacity_title 0.8s forwards;
+.section-galery a:hover .title_galery, .section-galery a:hover .img_btn_galery svg {
+  animation: opacity_title 0.4s forwards;
 }
 
 @keyframes vibrate {

@@ -6,7 +6,7 @@ const { project } = Astro.props;
 
 {
   project && (
-  <a href={ project?.link ?? "" } class="item">
+  <a href={ `projects${ project?.link }` } class="item">
     <img src={ `projects/${ project?.image }` } alt="" />
     <div class="title_galery">{ project?.name }</div>
     <div class="img_btn_galery">
