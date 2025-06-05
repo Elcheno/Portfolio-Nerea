@@ -16,23 +16,23 @@ const projectData = projectsList.find(project => project.link === `/${page}`)
 ---
 
 <Layout>
-  <div class="w-full min-h-screen flex flex-col">
+  <div class="w-full min-h-screen flex flex-col mt-[30vh]">
     <Header backbtn={true} />
     <div class="grow flex justify-center items-center mt-[-100px]">
-      <section class="w-[75vw] m-auto flex flex-row gap-8">
-        <div class="w-[75%] grow">
+      <section class="w-[80%] ld:w-[75vw] m-auto flex flex-col md:flex-row gap-30 md:gap-8">
+        <div class="md:w-[90%] lg:w-[75%] grow">
           <Carrousel carrouselImages={projectData?.carrousel_images ?? []} />
         </div>
-        <div class="flex flex-col justify-between gap-8 pb-[5rem] max-w-[50%]">
+        <div class="flex flex-col justify-between gap-8 pb-[5rem] md:max-w-[50%]">
           <div class="flex flex-col gap-4">
-            <h1 class="project_name text-[2rem]">{projectData?.name}</h1>
+            <h1 class="project_name text-[1.5rem]">{projectData?.name}</h1>
             <p class="text-[1.25rem]">{projectData?.description}</p>
           </div>
             {projectData?.networks && (
               <div class="flex flex-row gap-6 items-center justify-center">
                 {
                   Object.entries(projectData.networks).map(([key, url]) => (
-                    <a href={url} target="_blank" rel="noopener noreferrer" class="w-[50%]">
+                    <a href={url} target="_blank" rel="noopener noreferrer" class="lg:w-[50%]">
                       <button class="bg-[#0B0B0B] border border-white text-white rounded-[50px] text-center w-full px-4 py-2 hover:bg-white hover:text-black transition-colors hover:cursor-pointer">
                         {`Visitar en ${key}`}
                       </button>

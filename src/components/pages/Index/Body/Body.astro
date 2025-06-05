@@ -9,8 +9,16 @@ import RedesBehance from '@assets/RedesBehance.svg';
 <section class="w-full">
   <div class="w-[80%] lg:w-[75%] m-auto flex flex-col md:flex-row md:gap-24">
     <section class="ilust_body_parent">
-      <Image src={Ilustracion} alt="" class="ilus_body w-[30rem]" id="foto_body" />
-      <Image src={Foto} alt="" class="foto_body w-[30rem]" />
+      <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <Image src={Ilustracion} alt="" class="ilus_body w-[30rem]" id="foto_body" />
+            </div>
+            <div class="flip-card-back">
+              <Image src={Foto} alt="" class="foto_body w-[30rem]" />
+            </div>
+        </div>
+      </div>
     </section>
     <section class="flex flex-col gap-4 align-center justify-center">
       <div>
