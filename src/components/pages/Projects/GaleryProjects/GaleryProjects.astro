@@ -5,11 +5,7 @@ import projects from "@services/projects.json"
 ---
 
 <section class="w-full flex flex-col gap-4 p-4">
-  <div class="w-full">
-    <h1 class="text-[1.75rem] font-bold italic ">Proyectos</h1>
-  </div>
-  <div class="grid grid-cols-4 gap-2">
-
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
     {
       projects.map(project => (
         <GaleryProjectsItem
@@ -17,6 +13,5 @@ import projects from "@services/projects.json"
         />
       ))
     }
-
   </div>
 </section>

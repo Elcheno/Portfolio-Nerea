@@ -4,7 +4,7 @@ const { project } = Astro.props
 const image = `/projects/${project.image}`;
 ---
 
-<a href={`projects${project.link}`} class="galery-item h-[40rem]">
+<a href={`projects${project.link}`} class="galery-item h-[20rem]">
   <img src={image} class="transition-all" />
   <div class="galery-item-name">{project.name}</div>
 </a>

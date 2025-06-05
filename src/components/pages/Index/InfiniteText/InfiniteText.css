@@ -6,7 +6,7 @@
 
 .infinite-text-content {
   display: inline-flex;
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 30s linear infinite;
 }
 
 @keyframes scroll-left {
@@ -16,7 +16,7 @@
   90% {
     transform: translateX(-50%);
   }
-  95% {
+  98% {
     transform: translateX(-40%);
   }
   100% {

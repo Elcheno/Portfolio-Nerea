@@ -25,7 +25,7 @@ const projectData = projectsList.find(project => project.link === `/${page}`)
         </div>
         <div class="flex flex-col justify-between gap-8 pb-[5rem] max-w-[50%]">
           <div class="flex flex-col gap-4">
-            <h1 class="text-[2rem] font-bold">{projectData?.name}</h1>
+            <h1 class="project_name text-[2rem]">{projectData?.name}</h1>
             <p class="text-[1.25rem]">{projectData?.description}</p>
           </div>
             {projectData?.networks && (

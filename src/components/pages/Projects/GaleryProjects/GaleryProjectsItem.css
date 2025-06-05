@@ -26,4 +26,5 @@
 
 .galery-item img {
   object-fit: cover;
+  flex-grow: 1;
 }

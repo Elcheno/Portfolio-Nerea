@@ -41,6 +41,7 @@
 
 a.item:hover .img_btn_galery {
   pointer-events: auto;
+  opacity: 1;
 }
 
 .item .img_btn_galery svg {
@@ -50,7 +51,6 @@ a.item:hover .img_btn_galery {
   display: block;
   animation: none;
   color: rgba(2 55, 255, 255, 0.711);
-  opacity: 0;
 }
 
 .title_galery {
@@ -64,7 +64,7 @@ a.item:hover .img_btn_galery {
   opacity: 0;
 }
 
-.section-galery a:hover .title_galery, .section-galery a:hover .img_btn_galery svg {
+.section-galery a:hover .title_galery {
   animation: opacity_title 0.4s forwards;
 }
 
