@@ -2,9 +2,18 @@
 import { Button } from "@components/core"
 
 const { url } = Astro.props;
-
 ---
 
-<a href={ url }>
+<div id="back_anchor">
   <Button text="Volver" />
-</a>
+</div>
+
+<script>
+  const anchor = document.getElementById("back_anchor");
+  if (anchor) {
+    anchor.addEventListener("click", function (event) {
+      event.preventDefault();
+      history.back();
+    });
+  }
+</script>

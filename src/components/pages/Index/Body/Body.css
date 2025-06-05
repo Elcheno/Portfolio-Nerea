@@ -1,0 +1,41 @@
+.ilus_body, .foto_body {
+  width: 25rem;
+  height: 25rem;
+  grid-area: stack;
+  margin: auto;
+}
+
+.foto_body {
+  width: 90%;
+  height: 90%;
+}
+
+.ilust_body_parent {
+  display: grid;
+  grid-template-areas: "stack";
+  place-content: center;
+}
+
+.foto_body {
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+
+.ilus_body {
+  opacity: 1;
+  transition: .5s ease-in-out;
+}
+
+.ilust_body_parent:hover .ilus_body {
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+
+.ilust_body_parent:hover .foto_body {
+  opacity: 1;
+  transition: .5s ease-in-out;
+}
+
+/* .name_body {
+  font-family: Estrella;
+} */

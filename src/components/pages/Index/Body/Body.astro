@@ -1,17 +1,20 @@
 ---
+import "./Body.css";
 import { Image } from 'astro:assets';
 import Ilustracion from '@assets/Ilustracion.svg';
+import Foto from '@assets/Foto.svg';
 import RedesInsta from '@assets/RedesInsta.svg';
 import RedesBehance from '@assets/RedesBehance.svg';
 ---
 <section class="w-full">
   <div class="w-[75%] m-auto flex gap-24">
-    <section>
-      <Image src={Ilustracion} alt="" class="w-[30rem]" />
+    <section class="ilust_body_parent">
+      <Image src={Ilustracion} alt="" class="ilus_body w-[30rem]" id="foto_body" />
+      <Image src={Foto} alt="" class="foto_body w-[30rem]" />
     </section>
     <section class="flex flex-col gap-4 align-center justify-center">
       <div>
-        <h2 class="text-[2rem] italic font-bold">Nerea Pérez</h2>
+        <h2 class="name_body text-[2rem] italic font-bold">Nerea Pérez</h2>
       </div>
       <div>
         <p class="text-[1.1rem]">
@@ -33,3 +36,10 @@ import RedesBehance from '@assets/RedesBehance.svg';
     </section>
   </div>
 </section>
+
+<!-- <script>
+  const foto_body = document.getElementById("foto_body");
+
+  addEventListener("hover", foto_body )
+
+</script> -->
