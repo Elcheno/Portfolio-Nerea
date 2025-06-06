@@ -3,7 +3,6 @@ import Layout from '../../layouts/Layout.astro';
 import { Header, Footer } from '@components/core';
 import projectsList from "@services/projects.json";
 import { Carrousel } from '@components/pages/Project';
-import { Button } from '@components/core';
 
 export async function getStaticPaths() {
   return projectsList.map((projectItem) => ({
