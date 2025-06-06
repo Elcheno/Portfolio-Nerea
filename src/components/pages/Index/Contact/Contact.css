@@ -1,6 +1,7 @@
 .grande:hover {
-  font-family: Estrella;
+  font-family: Love;
+  font-size: 5rem;
   line-height: .75;
   transition: all;
-  text-transform: uppercase;
+  font-weight: normal;
 }
