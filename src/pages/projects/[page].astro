@@ -16,12 +16,20 @@ const projectData = projectsList.find(project => project.link === `/${page}`)
 ---
 
 <Layout>
-  <div class="w-full min-h-screen flex flex-col mt-[30vh]">
+  <div class="w-full min-h-screen flex flex-col mt-[10vh]">
     <Header backbtn={true} />
     <div class="grow flex justify-center items-center mt-[-100px]">
       <section class="w-[80%] ld:w-[75vw] m-auto flex flex-col md:flex-row gap-30 md:gap-8">
         <div class="md:w-[90%] lg:w-[75%] grow">
-          <Carrousel carrouselImages={projectData?.carrousel_images ?? []} />
+          {
+            projectData && projectData?.carrousel_images?.length > 0 ? (
+              <Carrousel carrouselImages={projectData?.carrousel_images ?? []} />
+            ) : (
+              <div class="mx-auto w-full">
+                <img class="object-cover mx-auto" src={`/projects/${projectData?.image}`} alt={projectData?.name} />
+              </div>
+            )
+          }
         </div>
         <div class="flex flex-col justify-between gap-8 pb-[5rem] md:max-w-[50%]">
           <div class="flex flex-col gap-4">
