@@ -16,9 +16,9 @@ const images = carrouselImages?.map((image) => {
         <div class="overflow-hidden relative rounded-lg h-[50vh]">
           {
             images?.map(image => (
-              <div class="hidden duration-200 ease-linear h-[50vh] w-full" data-carousel-item>
+              <div class="hidden duration-200 ease-in-out h-[50vh] w-full" data-carousel-item>
                 <div class="h-[50vh] m-auto">
-                    <img src={image} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="" />
+                    <img src={image} class="block h-full w-auto m-auto" alt="..." />
                 </div>
               </div>
             ))
