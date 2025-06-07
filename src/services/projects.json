@@ -6,7 +6,7 @@
     "image": "CENTURY.webp",
     "link": "/espcentury",
     "carrousel": true,
-    "carrousel_images": ["CENTURY.webp", "CENTURY2.webp"],
+    "carrousel_images": ["CENTURY.webp", "CENTURY2.webp", "CENTURY.webp"],
     "networks": {
       "behance": ""
     }
@@ -14,7 +14,7 @@
     {
     "id": 2,
     "name": "Retrato",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "RETRATO.webp",
     "link": "/retrato",
     "carrousel": true,
@@ -30,7 +30,7 @@
     "image": "JAYWHEELER.webp",
     "link": "/jaywheeler",
     "carrousel": true,
-    "carrousel_images": ["JAYWHEELER.webp", "JHAYWHEELER3.webp"],
+    "carrousel_images": ["JAYWHEELER.webp", "JHAYWHEELER3.webp", "JAYWHEELER.webp"],
     "networks": {
       "behance": "https://www.behance.net/gallery/201213551/Portada-Vinilo-Jay-Wheeler"
     }
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Camiseta Mago de Oz",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "CAMISETABLANCA_MAGODEOZ.webp",
     "link": "/camimagodeoz",
     "carrousel": true,
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Camiseta BadBunny",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "CAMISETANEGRA_BADBU.webp",
     "link": "/camibadbunny",
     "carrousel": true,
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Locura Azteca",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "LocuraAzteca7.webp",
     "link": "/locurazteca",
     "carrousel": true,
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Publicidad Vodka",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "VODKA.webp",
     "link": "/fotovodka",
     "carrousel": true,
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Packaging Maracaba",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "MARACABA.webp",
     "link": "/maracaba",
     "carrousel": true,
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "Packaging Apolo",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "Mockup_CajaApolo.webp",
     "link": "/apolo",
     "carrousel": true,
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Lowpoly Rosalía",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "lowpoly_rosalia.webp",
     "link": "/lowpolyrosalia",
     "carrousel": true,
@@ -122,7 +122,7 @@
   {
     "id": 11,
     "name": "Portada libro",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "RETRARODORIAN_LIBRO.webp",
     "link": "/retrarodorian",
     "carrousel": true,
@@ -134,7 +134,7 @@
   {
     "id": 12,
     "name": "Vinilo Mujerez",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "VINILO1.webp",
     "link": "/vinilomujerez",
     "carrousel": true,
@@ -146,7 +146,7 @@
   {
     "id": 13,
     "name": "Bolsa",
-    "description": "Description 1",
+    "description": "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital.",
     "image": "BOLSA1.webp",
     "link": "/bolsa",
     "carrousel": true,
