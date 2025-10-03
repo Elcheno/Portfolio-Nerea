@@ -1,12 +1,16 @@
 ---
 import "./About.css";
-import { Image } from 'astro:assets';
-import Foto2 from '@assets/Foto2.webp';
+import { Image } from "astro:assets";
+import Foto2 from "@assets/Foto2.webp";
 ---
 
-<section id="about" class="w-full lg:h-[60vh] flex items-center justify-center md:mt-0">
-  <div class="w-[80%] lg:w-[75%] m-auto flex flex-col md:flex-row md:gap-24 items-center justify-center">
-
+<section
+  id="about"
+  class="w-full lg:h-[60vh] flex items-center justify-center md:mt-0"
+>
+  <div
+    class="w-[75%] lg:w-[60%] m-auto flex flex-col md:flex-row md:gap-16 items-center justify-center"
+  >
     <div>
       <Image src={Foto2} alt="" class="w-[60rem]" />
     </div>
@@ -15,13 +19,22 @@ import Foto2 from '@assets/Foto2.webp';
       <div>
         <h2 class="about-title text-[2rem]">Sobre mí</h2>
       </div>
-  
+
       <div>
         <p class="text-[1.1rem]">
-          Siempre me ha llamado la atención el mundo del arte, por lo que decidí cursar el bachillerato artístico. Actualmente sigo avanzando en mi formación en diseño gráfico, ampliando mis conocimientos en la escuela de Granada “Estación Diseño”.<br/>Me gusta mucho la tipografía, el branding y el diseño digital. Me inclino por un estilo minimalista, prefiero el diseño limpio y claro. Mi enfoque es entender las necesidades del cliente y crear soluciones que no solo sean estéticas, sino también funcionales. Cada proyecto es una oportunidad para crecer y aprender.
+          Mi nombre es Nerea Pérez, y soy diseñadora gráfica. <br /> Mi pasión es
+          resolver problemas a través del diseño, combinando creatividad y estrategia
+          para crear mensajes visuales que comunican. Siempre me ha llamado la atención
+          el mundo del arte, por lo que decidí cursar el bachillerato artístico y
+          posteriormente he seguido avanzado y ampliando mis conocimientos sobre
+          diseño gráfico en la escuela de Granada “Estación Diseño”. <br /> Me gusta
+          mucho la tipografía, el branding y el diseño digital. Me inclino por un
+          estilo minimalista, prefiero el diseño limpio y claro. Mi enfoque es entender
+          las necesidades del cliente y crear soluciones que no solo sean estéticas,
+          sino también funcionales. Cada proyecto es una oportunidad para crecer
+          y aprender.
         </p>
       </div>
     </div>
-
   </div>
 </section>

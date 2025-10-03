@@ -10,16 +10,12 @@
 }
 
 @keyframes scroll-left {
-  0% {
-    transform: translateX(0%);
+  from {
+    transform: translateX(0);
   }
-  90% {
-    transform: translateX(-50%);
-  }
-  98% {
-    transform: translateX(-40%);
-  }
-  100% {
-    transform: translateX(0%);
+  to {
+    transform: translateX(
+      -50%
+    ); /* se mueve solo medio ancho porque duplicamos */
   }
 }

@@ -1,0 +1,19 @@
+---
+import { Shop } from "@services/shop.js";
+
+// Devuelve todas las rutas posibles
+export async function getStaticPaths() {
+  const shop = new Shop();
+  const products = shop.getProducts();
+
+  return products.map((p) => ({
+    params: { uuid: p.uuid },
+    props: { product: p },
+  }));
+}
+
+const { product } = Astro.props;
+---
+
+<h1>{product.name}</h1>
+<p>Precio: {product.price}</p>
