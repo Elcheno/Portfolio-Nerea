@@ -1,19 +1,26 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import { Header, Footer } from '@components/core';
-import { Intro, NavigationBar, Body, InfiniteText, Galery, About, Contact } from '@components/pages/Index';
+import Layout from "../layouts/Layout.astro";
+import { Header, Footer } from "@components/core";
+import {
+  Intro,
+  NavigationBar,
+  Body,
+  InfiniteText,
+  Galery,
+  About,
+  Contact,
+} from "@components/pages/Index";
 ---
 
 <Layout>
-	<NavigationBar />
-	<Header />
-	<Intro />
+  <NavigationBar />
+  <Header />
+  <Intro />
 
-	<Body />
-	<InfiniteText />
-	<Galery />
-	<About />
-	<Contact />
+  <InfiniteText />
+  <Galery />
+  <About />
+  <Contact />
 
-	<Footer />
+  <Footer />
 </Layout>
