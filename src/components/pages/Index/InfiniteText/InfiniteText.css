@@ -14,8 +14,6 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(
-      -50%
-    ); /* se mueve solo medio ancho porque duplicamos */
+    transform: translateX(-50%);
   }
 }

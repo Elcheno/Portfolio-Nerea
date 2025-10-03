@@ -1,0 +1,64 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { Header, Footer } from "@components/core";
+import projectsList from "@services/projects.json";
+import { Carrousel } from "@components/pages/Project";
+
+export async function getStaticPaths() {
+  return projectsList.map((projectItem) => ({
+    params: { page: projectItem.link },
+  }));
+}
+
+const { page } = Astro.params;
+const projectData = projectsList.find((project) => project.link === `${page}`);
+---
+
+<Layout>
+  <div class="w-full min-h-screen flex flex-col mt-[16vh]">
+    <Header backbtn={true} />
+    <div class="grow flex justify-center items-center md:mt-[-100px]">
+      <section
+        class="w-[80%] lg:w-[75vw] m-auto flex flex-col md:flex-row gap-30 md:gap-8"
+      >
+        {
+          projectData && projectData?.carrousel_images?.length > 0 && (
+            <div class="md:w-[90%] lg:w-[75%] grow">
+              <Carrousel
+                carrouselImages={projectData?.carrousel_images ?? []}
+              />
+            </div>
+          )
+        }
+        <div
+          class=`flex flex-col justify-between gap-8 pb-[5rem] ${projectData && projectData?.carrousel_images?.length > 0 ? 'md:max-w-[50%]' : 'w-full'}`
+        >
+          <div class="flex flex-col gap-4">
+            <h1 class="project_name text-[1.5rem]">{projectData?.name}</h1>
+            <p class="text-[1.1rem]">{projectData?.description}</p>
+            <p class="text-[1.1rem]">{projectData?.description_2}</p>
+          </div>
+          {
+            projectData?.networks && (
+              <div class="flex flex-row gap-6 items-center justify-center">
+                {Object.entries(projectData.networks).map(([key, url]) => (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="lg:w-[50%]"
+                  >
+                    <button class="bg-[#0B0B0B] border border-white text-white rounded-[50px] text-center w-full px-4 py-2 hover:bg-white hover:text-black transition-colors hover:cursor-pointer">
+                      {`Visitar en ${key}`}
+                    </button>
+                  </a>
+                ))}
+              </div>
+            )
+          }
+        </div>
+      </section>
+    </div>
+    <Footer />
+  </div>
+</Layout>
