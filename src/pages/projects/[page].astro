@@ -3,6 +3,7 @@ import "./page.css";
 import Layout from "../../layouts/Layout.astro";
 import { Header, Footer, Button } from "@components/core";
 import projectsList from "@services/projects.json";
+import { Image } from "astro:assets";
 
 export async function getStaticPaths() {
   return projectsList.map((projectItem) => ({
@@ -11,49 +12,119 @@ export async function getStaticPaths() {
 }
 
 const { page } = Astro.params;
-const projectData = projectsList.find((project) => project.link === `${page}`);
-const images = projectData?.carrousel_images?.map((image) => {
-  return `/projects/${image}`;
-});
+
+const currentIndex = projectsList.findIndex((project) => project.link === page);
+const projectData = projectsList[currentIndex];
+const nextProject =
+  currentIndex + 1 < projectsList.length
+    ? projectsList[currentIndex + 1]
+    : projectsList[0];
+const prevProject =
+  currentIndex - 1 >= 0
+    ? projectsList[currentIndex - 1]
+    : projectsList[projectsList.length - 1];
 ---
 
 <Layout>
   <div class="w-full min-h-screen flex flex-col">
     <Header backbtn={true} />
-    <div class="grow flex justify-center items-center">
-      <section class="m-auto flex flex-col gap-30 md:gap-8 mt-[20vh] w-[90%]">
-        <div
-          class="grid-custom grid grid-cols-1 lg:grid-cols-2 justify-between gap-12"
-        >
-          <div class="flex flex-col gap-4">
-            <h1 class="project_name text-[1.8rem]">{projectData?.name}</h1>
-            {
-              projectData?.description?.map((desc) => (
-                <p class="text-[1.2rem]">{desc}</p>
-              ))
-            }
-            {
-              projectData?.networks && (
-                <div class="flex flex-row gap-6 items-center justify-center mt-6">
-                  {Object.entries(projectData.networks).map(([key, url]) => (
-                    <a href={url} target="_blank" rel="noopener noreferrer">
-                      <Button text={`Visitar en ${key}`} />
-                    </a>
-                  ))}
-                </div>
-              )
-            }
-          </div>
-          <div class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-3">
-            {
-              images?.map((image) => {
-                return <img src={image} />;
-              })
-            }
-          </div>
+    <div class="grow flex flex-col gap-15">
+      <Image
+        src={projectData?.image}
+        inferSize={true}
+        alt={`Principal image of ${projectData?.name}`}
+        loading="lazy"
+        class="max-h-[60vh] w-full object-cover object-center"
+      />
+
+      <div class="flex flex-col gap-10 w-[90%] md:w-[75%] m-auto">
+        <h1 class="text-4xl font-bold text-white text-center title">
+          {projectData?.name}
+        </h1>
+        <div>
+          {
+            projectData?.descriptions?.map((description) => (
+              <p class="text-lg text-white text-center">{description}</p>
+            ))
+          }
         </div>
-      </section>
+        {
+          projectData?.networks && (
+            <div class="flex flex-row gap-6 items-center justify-center mt-6">
+              {Object.entries(projectData.networks).map(([key, url]) => (
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  <Button text={`Visitar en ${key}`} />
+                </a>
+              ))}
+            </div>
+          )
+        }
+      </div>
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-center items-center"
+      >
+        {
+          projectData?.images?.map((image, key) => (
+            <Image
+              src={image}
+              inferSize={true}
+              alt={`Image number ${key} of ${projectData?.name}`}
+              loading="lazy"
+              onclick="getFullscreen(this)"
+              class="cursor-pointer"
+            />
+          ))
+        }
+      </div>
+
+      <div
+        class="h-[30vh] w-full grid grid-cols-2 justify-between items-center gap-2"
+      >
+        <section class="bg-white relative">
+          <Image
+            src={prevProject?.image}
+            inferSize={true}
+            alt={`Principal image of ${prevProject?.name}`}
+            loading="lazy"
+            class="h-[30vh] w-full object-cover object-center opacity-50"
+          />
+          <div class="!absolute left-20 top-1/2 -translate-y-1/2 flex gap-10">
+            <a href={`/projects/${prevProject?.link}`}>
+              <Button text="Ver anterior proyecto" />
+            </a>
+          </div>
+        </section>
+        <section class="bg-white relative">
+          <Image
+            src={nextProject?.image}
+            inferSize={true}
+            alt={`Principal image of ${nextProject?.name}`}
+            loading="lazy"
+            class="h-[30vh] w-full object-cover object-center opacity-50"
+          />
+          <div class="!absolute right-20 top-1/2 -translate-y-1/2 flex gap-10">
+            <a href={`/projects/${nextProject?.link}`}>
+              <Button text="Ver siguiente proyecto" />
+            </a>
+          </div>
+        </section>
+      </div>
     </div>
     <Footer />
   </div>
 </Layout>
+
+<script is:inline>
+  function getFullscreen(element) {
+    if (element.requestFullscreen) {
+      element.requestFullscreen();
+    } else if (element.webkitRequestFullscreen) {
+      element.webkitRequestFullscreen();
+    } else if (element.mozRequestFullScreen) {
+      element.mozRequestFullScreen();
+    } else if (element.msRequestFullscreen) {
+      element.msRequestFullscreen();
+    }
+  }
+</script>
