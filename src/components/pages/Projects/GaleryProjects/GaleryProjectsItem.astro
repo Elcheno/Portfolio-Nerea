@@ -1,12 +1,19 @@
 ---
 import "./GaleryProjectsItem.css";
+import { Image } from "astro:assets";
+
 const { project } = Astro.props;
-const image = `/projects/${project.image}`;
 ---
 
 <a href={`/projects/${project.link}`} rel="noopener noreferrer">
   <div class="galery-item h-[20rem]">
-    <img src={image} class="transition-all rounded-lg" />
+    <Image
+      src={project.image}
+      inferSize={true}
+      alt={`Principal image of ${project.name}`}
+      loading="lazy"
+      class="transition-all rounded-lg"
+    />
     <div class="galery-item-name">{project.name}</div>
   </div>
 </a>

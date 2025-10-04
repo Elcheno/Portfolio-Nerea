@@ -1,21 +1,22 @@
 ---
-import ItemGalery from "./ItemGalery.astro"
+import ItemGalery from "./ItemGalery.astro";
 import { Button } from "@components/core";
 import projectsList from "@services/projects.json";
 
-const projects_Ids = [3, 8, 5, 2, 7];
-const projects = projectsList.filter(project => projects_Ids.includes(project.id));
+// const projects_Ids = [3, 8, 5, 2, 7];
+const projects_Ids = [0, 1, 2, 3, 4];
+const projects = projectsList.filter((project) =>
+  projects_Ids.includes(project.id),
+);
 ---
 
-<div class="mt-32 mb-16 md:mb-0 w-full flex flex-col gap-12 justify-center items-center">
+<div
+  class="mt-32 mb-16 md:mb-0 w-full flex flex-col gap-12 justify-center items-center"
+>
   <section class="section-galery flex w-full h-[420px] relative">
-    {
-      projects.map(project => (
-        <ItemGalery project={project}/>
-      ))
-    }
+    {projects.map((project) => <ItemGalery project={project} />)}
   </section>
   <a href="/projects">
-    <Button text="Ver más proyectos"/>
+    <Button text="Ver más proyectos" />
   </a>
 </div>

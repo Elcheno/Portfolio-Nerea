@@ -65,7 +65,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 6,
     "name": "Locura Azteca",
     "descriptions": [
       "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
@@ -86,15 +86,97 @@
     }
   },
   {
-    "id": 5,
+    "id": 7,
     "name": "Publicidad Vodka",
     "descriptions": [
       "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
     ],
     "image": "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/publicidad_vodka/publicidad_vodka_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvcHVibGljaWRhZF92b2RrYS9wdWJsaWNpZGFkX3ZvZGthXzEud2VicCIsImlhdCI6MTc1OTUzNzg2MSwiZXhwIjozMzM2MzM3ODYxfQ.2QdqfqTF9Dx7hpuooooqK5dfsEajs93hsE7trnpY2Aw",
     "link": "fotovodka",
-    "images": [
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/publicidad_vodka/publicidad_vodka_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvcHVibGljaWRhZF92b2RrYS9wdWJsaWNpZGFkX3ZvZGthXzEud2VicCIsImlhdCI6MTc1OTUzNzg2MSwiZXhwIjozMzM2MzM3ODYxfQ.2QdqfqTF9Dx7hpuooooqK5dfsEajs93hsE7trnpY2Aw"
-    ]
+    "images": []
+  },
+  {
+    "id": 8,
+    "name": "Packaging Maracaba",
+    "description": [
+      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+    ],
+    "image": "MARACABA.webp",
+    "link": "maracaba",
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
+  },
+  {
+    "id": 9,
+    "name": "Packaging Apolo",
+    "description": [
+      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+    ],
+    "image": "Mockup_CajaApolo.webp",
+    "link": "apolo",
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
+  },
+  {
+    "id": 10,
+    "name": "Lowpoly Rosalía",
+    "description": [
+      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+    ],
+    "image": "lowpoly_rosalia.webp",
+    "link": "lowpolyrosalia",
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
+  },
+  {
+    "id": 11,
+    "name": "Portada libro",
+    "description": [
+      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+    ],
+    "image": "RETRARODORIAN_LIBRO.webp",
+    "link": "/retrarodorian",
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
+  },
+  {
+    "id": 12,
+    "name": "Vinilo Mujerez",
+    "description": [
+      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+    ],
+    "image": "VINILO1.webp",
+    "link": "vinilomujerez",
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
+  },
+  {
+    "id": 13,
+    "name": "Bolsa",
+    "description": [
+      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+    ],
+    "image": "BOLSA1.webp",
+    "link": "bolsa",
+    "carrousel": true,
+    "carrousel_images": [],
+    "networks": {
+      "behance": ""
+    }
   }
 ]
