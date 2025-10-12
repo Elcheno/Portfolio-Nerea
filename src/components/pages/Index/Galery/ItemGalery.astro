@@ -9,7 +9,7 @@ const { project } = Astro.props;
   project && (
     <a href={`/projects`} class="item">
       <Image
-        src={project.image}
+        src={project.image_portada ?? project.images[0]}
         inferSize={true}
         alt={`Principal image of ${project.name}`}
         loading="lazy"
