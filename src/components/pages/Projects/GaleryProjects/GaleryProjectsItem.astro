@@ -8,7 +8,7 @@ const { project } = Astro.props;
 <a href={`/projects/${project.link}`} rel="noopener noreferrer">
   <div class="galery-item h-[20rem]">
     <Image
-      src={project.image}
+      src={project.image_portada ?? project.images[0]}
       inferSize={true}
       alt={`Principal image of ${project.name}`}
       loading="lazy"
