@@ -3,13 +3,17 @@ import "./ItemGalery.css";
 import { Image } from "astro:assets";
 
 const { project } = Astro.props;
+import { getImage } from "@services/firebase";
 ---
 
 {
   project && (
-    <a href={`/projects`} class="item">
+    <a
+      href={`/projects`}
+      class="item w-full h-[30vh] md:w-[0] md:h-auto md:hover:cursor-pointer md:hover:w-[100px]"
+    >
       <Image
-        src={project.image_portada ?? project.images[0]}
+        src={getImage(project.image_portada ?? project.images[0])}
         inferSize={true}
         alt={`Principal image of ${project.name}`}
         loading="lazy"

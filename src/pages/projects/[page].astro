@@ -4,6 +4,13 @@ import Layout from "../../layouts/Layout.astro";
 import { Header, Footer, Button } from "@components/core";
 import projectsList from "@services/projects.json";
 import { Image } from "astro:assets";
+import { getImage } from "@services/firebase";
+import {
+  ChangeProject,
+  CoverProject,
+  DescriptionProject,
+  VideoProject,
+} from "@components/pages/Project";
 
 export async function getStaticPaths() {
   return projectsList.map((projectItem) => ({
@@ -29,108 +36,34 @@ const prevProject =
   <div class="w-full min-h-screen flex flex-col">
     <Header backbtn={true} />
     <div class="grow flex flex-col gap-15">
-      <Image
-        src={projectData?.image}
-        inferSize={true}
-        alt={`Principal image of ${projectData?.name}`}
-        loading="lazy"
-        class="max-h-[60vh] w-full object-cover object-center"
-      />
+      <CoverProject project={projectData} />
 
-      <div class="flex flex-col gap-10 w-[90%] md:w-[75%] m-auto">
-        <!-- <h1 class="text-4xl font-bold text-white text-center title">
-          {projectData?.name}
-        </h1> -->
-        <div>
-          {
-            projectData?.descriptions?.map((description) => (
-              <p class="text-lg text-white text-center">{description}</p>
-            ))
-          }
-        </div>
+      <DescriptionProject project={projectData} />
+
+      {projectData?.video && <VideoProject project={projectData} />}
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-center items-center gap-[6px]"
+      >
         {
-          projectData?.networks && (
-            <div class="flex flex-row gap-6 items-center justify-center mt-6">
-              {Object.entries(projectData.networks).map(([key, url]) => (
-                <a href={url} target="_blank" rel="noopener noreferrer">
-                  <Button text={`Visitar en ${key}`} />
-                </a>
-              ))}
-            </div>
-          )
+          projectData?.images?.map((image, key) => (
+            <>
+              {image && (
+                <Image
+                  src={getImage(image)}
+                  inferSize={true}
+                  alt={`Image number ${key + 1} of ${projectData?.name}`}
+                  loading="lazy"
+                  onclick="getFullscreen(this)"
+                  class="cursor-pointer"
+                />
+              )}
+            </>
+          ))
         }
       </div>
 
-      {
-        projectData?.format === "format_2" ? (
-          <div style="display: grid; grid-template-columns: 1fr; grid-template-rows: auto;">
-            {projectData?.images?.map((image, key) => (
-              <>
-                {image && (
-                  <Image
-                    src={image}
-                    inferSize={true}
-                    alt={`Image number ${key + 1} of ${projectData?.name}`}
-                    loading="lazy"
-                    onclick="getFullscreen(this)"
-                    class="cursor-pointer"
-                  />
-                )}
-              </>
-            ))}
-          </div>
-        ) : (
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-center items-center gap-[6px]">
-            {projectData?.images?.map((image, key) => (
-              <>
-                {image && (
-                  <Image
-                    src={image}
-                    inferSize={true}
-                    alt={`Image number ${key + 1} of ${projectData?.name}`}
-                    loading="lazy"
-                    onclick="getFullscreen(this)"
-                    class="cursor-pointer"
-                  />
-                )}
-              </>
-            ))}
-          </div>
-        )
-      }
-
-      <div
-        class="h-[30vh] w-full grid grid-cols-2 justify-between items-center gap-2"
-      >
-        <section class="bg-white relative">
-          <Image
-            src={prevProject?.image}
-            inferSize={true}
-            alt={`Principal image of ${prevProject?.name}`}
-            loading="lazy"
-            class="h-[30vh] w-full object-cover object-center opacity-50"
-          />
-          <div class="!absolute left-20 top-1/2 -translate-y-1/2 flex gap-10">
-            <a href={`/projects/${prevProject?.link}`}>
-              <Button text="Ver anterior proyecto" />
-            </a>
-          </div>
-        </section>
-        <section class="bg-white relative">
-          <Image
-            src={nextProject?.image}
-            inferSize={true}
-            alt={`Principal image of ${nextProject?.name}`}
-            loading="lazy"
-            class="h-[30vh] w-full object-cover object-center opacity-50"
-          />
-          <div class="!absolute right-20 top-1/2 -translate-y-1/2 flex gap-10">
-            <a href={`/projects/${nextProject?.link}`}>
-              <Button text="Ver siguiente proyecto" />
-            </a>
-          </div>
-        </section>
-      </div>
+      <ChangeProject nextProject={nextProject} prevProject={prevProject} />
     </div>
     <Footer />
   </div>

@@ -1,0 +1,45 @@
+---
+import { Image } from "astro:assets";
+import { getImage } from "@services/firebase";
+import { Button } from "@components/core";
+import "./ChangeProject.css";
+
+const { nextProject, prevProject } = Astro.props;
+---
+
+<div
+  class="md:h-[30vh] w-full grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-2"
+>
+  <section class="bg-white relative rounded-lg">
+    <Image
+      src={getImage(prevProject?.image)}
+      inferSize={true}
+      alt={`Principal image of ${prevProject?.name}`}
+      loading="lazy"
+      class="h-[15vh] md:h-[30vh] w-full object-cover object-center opacity-50 rounded-lg"
+    />
+    <div
+      class="!absolute left-5 md:left-20 top-1/2 -translate-y-1/2 flex gap-10"
+    >
+      <a href={`/projects/${prevProject?.link}`}>
+        <Button text="Ver anterior proyecto" />
+      </a>
+    </div>
+  </section>
+  <section class="bg-white relative rounded-lg">
+    <Image
+      src={getImage(nextProject?.image)}
+      inferSize={true}
+      alt={`Principal image of ${nextProject?.name}`}
+      loading="lazy"
+      class="h-[15vh] md:h-[30vh] w-full object-cover object-center opacity-50 rounded-lg"
+    />
+    <div
+      class="!absolute right-5 md:right-20 top-1/2 -translate-y-1/2 flex gap-10"
+    >
+      <a href={`/projects/${nextProject?.link}`}>
+        <Button text="Ver siguiente proyecto" />
+      </a>
+    </div>
+  </section>
+</div>

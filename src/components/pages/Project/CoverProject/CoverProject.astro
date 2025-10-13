@@ -1,0 +1,14 @@
+---
+import { Image } from "astro:assets";
+import { getImage } from "@services/firebase";
+
+const { project } = Astro.props;
+---
+
+<Image
+  src={getImage(project?.image)}
+  inferSize={true}
+  alt={`Principal image of ${project?.name}`}
+  loading="lazy"
+  class="max-h-[60vh] w-full object-cover object-center"
+/>

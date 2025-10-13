@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* Activar animación cuando el elemento entra al viewport */
+  .animate-left {
+    animation: slideInLeft 1s ease-out both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+  }
+
+  .animate-right {
+    animation: slideInRight 1s ease-out both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+  }
+}

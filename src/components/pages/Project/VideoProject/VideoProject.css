@@ -1,0 +1,19 @@
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Solo se aplica en pantallas grandes */
+@media (min-width: 1024px) {
+  .video-slide-in {
+    animation: slideInRight 0.8s ease-out forwards;
+    animation-delay: 0.75s;
+    opacity: 0; /* Oculto hasta que empiece la animación */
+  }
+}

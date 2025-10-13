@@ -2,128 +2,174 @@
   {
     "id": 0,
     "name": "Canvelia",
-    "image": "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/canvelia/canvelia_0.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvY2FudmVsaWEvY2FudmVsaWFfMC53ZWJwIiwiaWF0IjoxNzYwMjY3MTg0LCJleHAiOjMzMzcwNjcxODR9.gOuDgpFaGxSYdcG41pGfSVCcyeHqUrnpbh377W9eySE",
+    "image": "canvelia/canvelia_0.webp",
     "descriptions": [
       "La marca Canvelia es una marca ficticia creada por dos hermanas que crecieron en Andalucía pero cuya abuela materna era de Colombia. Su casa siempre olía a frutas y flores, y preparaba velas con recetas propias. Cuando ella falleció, las hermanas como homenaje, decidieron crear una marca de velas que une lo sensorial con lo emocional.",
       "Sus valores son el bienestas, artesanía, sostenibilidad y familia. El objetivo principal es rebalorizar lo hecho a mano además de fomentar el uso de productos más saludables y crear un vinculo emocional."
     ],
     "link": "canvelia",
     "images": [
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/canvelia/canvelia_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvY2FudmVsaWEvY2FudmVsaWFfMS53ZWJwIiwiaWF0IjoxNzU5NTI3OTQ4LCJleHAiOjMzMzYzMjc5NDh9.J2tu4DVHB8nA2A5_pcWg2kA6IPZnS7NCzAhFHOOHOmk",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/canvelia/canvelia_2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvY2FudmVsaWEvY2FudmVsaWFfMi53ZWJwIiwiaWF0IjoxNzU5NTI3OTcwLCJleHAiOjMzMzYzMjc5NzB9.FLk9sispydwLuxJ6Cxi7-ygRp9d_w1gAu0Di5sg9bCk",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/canvelia/canvelia_3.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvY2FudmVsaWEvY2FudmVsaWFfMy53ZWJwIiwiaWF0IjoxNzU5NTI3OTk1LCJleHAiOjMzMzYzMjc5OTV9.MPC9gecRJVdvs7JLXYLxRoXvY8D3XhJK_obzfHYY2ok",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/canvelia/canvelia_4.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvY2FudmVsaWEvY2FudmVsaWFfNC53ZWJwIiwiaWF0IjoxNzU5NTI4MDEwLCJleHAiOjMzMzYzMjgwMTB9.TOl3zLPae86xhr36V9GXTkHySKjH8Yx4G2TT1iuakqc",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/canvelia/canvelia_5.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvY2FudmVsaWEvY2FudmVsaWFfNS53ZWJwIiwiaWF0IjoxNzU5NTI4MDI4LCJleHAiOjMzMzYzMjgwMjh9.RYMjWEOI_qsEIt_bh-r6eiLDQ29JvRw4InPWIpOJUdU",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/canvelia/canvelia_6.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvY2FudmVsaWEvY2FudmVsaWFfNi53ZWJwIiwiaWF0IjoxNzU5NTI4MDQyLCJleHAiOjMzMzYzMjgwNDJ9.il4PsQJLxlUguXX-elW5r-GbQne-5TXGy-RYKGADI3w"
+      "canvelia/canvelia_1.webp",
+      "canvelia/canvelia_2.webp",
+      "canvelia/canvelia_3.webp",
+      "canvelia/canvelia_4.webp",
+      "canvelia/canvelia_5.webp",
+      "canvelia/canvelia_6.webp",
+      "canvelia/canvelia_7.webp",
+      "canvelia/canvelia_8.webp",
+      "canvelia/canvelia_9.webp"
     ],
     "networks": {
       "behance": "https://www.behance.net/gallery/231598543/Packaging-Canvelia"
     }
   },
   {
-    "id": 6,
+    "id": 1,
     "name": "Bigsound",
     "descriptions": [
-      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
     ],
-    "image": "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_0.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfMC53ZWJwIiwiaWF0IjoxNzYwMjcyNDI3LCJleHAiOjMzMzcwNzI0Mjd9.qHS8XKgN1S_jfahwHb87skZ8haSKBhHdugWWU8OHiME",
-    "image_portada": "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfMS53ZWJwIiwiaWF0IjoxNzYwMjcwODk5LCJleHAiOjMzMzcwNzA4OTl9.G15A9zBsDCNrm1JXhUeE1GY38qUb5QnDLp3574W2SDw",
+    "image": "bigsound/bigsound_0.webp",
+    "image_portada": "bigsound/bigsound_1.webp",
     "link": "bigsound",
+    "video": {
+      "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nophic-studio.firebasestorage.app/o/bigsound%2Fbigsound_brandingtv.mp4?alt=media&token=ba5aebb7-815c-4c80-8095-e6c372aba0ff",
+      "type": "video/mp4",
+      "label": "BrandingTV"
+    },
     "images": [
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfMS53ZWJwIiwiaWF0IjoxNzYwMjcwODk5LCJleHAiOjMzMzcwNzA4OTl9.G15A9zBsDCNrm1JXhUeE1GY38qUb5QnDLp3574W2SDw",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfMi53ZWJwIiwiaWF0IjoxNzYwMjcwOTE1LCJleHAiOjMzMzcwNzA5MTV9.JNmn8-3FymliMCgXb10BIrKfIefObONfpt94545ySAo",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_3.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfMy53ZWJwIiwiaWF0IjoxNzYwMjcwOTI3LCJleHAiOjMzMzcwNzA5Mjd9.yTBYGom-HSGWRkfA8pye_GyjYGAXxuzeE2EjVxojdV4",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_4.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfNC53ZWJwIiwiaWF0IjoxNzYwMjcwOTM5LCJleHAiOjMzMzcwNzA5Mzl9.0cAXkkBELV9ThAt5ZAJtO6FuueVny8R4W0wMi2lx1Ao",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_5.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfNS53ZWJwIiwiaWF0IjoxNzYwMjcxMDg1LCJleHAiOjMzMzcwNzEwODV9.4NnSl17pO_6t0cWmw7r_n9fIZb6k8mn9MQQ4MZ2SB-I",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_6.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfNi53ZWJwIiwiaWF0IjoxNzYwMjcxMTAwLCJleHAiOjMzMzcwNzExMDB9.QuygYZb6y5t8Pds3i806VgVHgNB4N5UqFb4encdOpQw",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_7.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfNy53ZWJwIiwiaWF0IjoxNzYwMjcxOTY3LCJleHAiOjMzMzcwNzE5Njd9.QyNaoz1sg2ktbvs0ibAR0gcpP0fg-L1Oovlww16vAdc",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_8.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfOC53ZWJwIiwiaWF0IjoxNzYwMjcxMjc4LCJleHAiOjMzMzcwNzEyNzh9.QWL0s-bY1clC7bHpi_Iff9aht7PKB6dUFyMUyLEIxho",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_9.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfOS53ZWJwIiwiaWF0IjoxNzYwMjcxMjk4LCJleHAiOjMzMzcwNzEyOTh9.Hls-dBLTpmkOcMQ2aeKmXuS579tXqD9_E4JCDZKteZ4",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_10.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfMTAud2VicCIsImlhdCI6MTc2MDI3MTMxNywiZXhwIjozMzM3MDcxMzE3fQ.M0DUctmqKpG4XAajrykyacCf3_k3yFecO35DwL16Gn0",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_11.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfMTEud2VicCIsImlhdCI6MTc2MDI3MTQ3OSwiZXhwIjozMzM3MDcxNDc5fQ.lrRCzE-XncY9CiARKo7uS4M-8PtAXD3MaYPcC0J88wE",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_12.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfMTIud2VicCIsImlhdCI6MTc2MDI3MTQ5MSwiZXhwIjozMzM3MDcxNDkxfQ.I2cChxHaW-dTApvuJHsQaOmxzaV4UD7UfDL0wCsEyzU",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_13.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfMTMud2VicCIsImlhdCI6MTc2MDI3MTUzMywiZXhwIjozMzM3MDcxNTMzfQ.xJqg6fjJSJSgDepMiJrlD0LI48EeltrcCKtEUQT7yUo",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_14.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfMTQud2VicCIsImlhdCI6MTc2MDI3MTcxNCwiZXhwIjozMzM3MDcxNzE0fQ.yKngblYQHiKvh4blU69nDdk4BTtzxx16pBzMhgPqoG8",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/bigsound/bigsound_15.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvYmlnc291bmQvYmlnc291bmRfMTUud2VicCIsImlhdCI6MTc2MDI3MTc1NCwiZXhwIjozMzM3MDcxNzU0fQ.R3n8aWDpJZblDUwCurWAg43qMmfNxFnnjiLpuyaiK0E"
-    ]
-  },
-  {
-    "id": 1,
-    "name": "Espécimen Century Gothic",
-    "descriptions": [
-      "Espécimen tipográfico para la asignatura Tipografía I, Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "bigsound/bigsound_1.webp",
+      "bigsound/bigsound_2.webp",
+      "bigsound/bigsound_3.webp",
+      "bigsound/bigsound_4.webp",
+      "bigsound/bigsound_5.webp",
+      "bigsound/bigsound_6.webp",
+      "bigsound/bigsound_7.webp",
+      "bigsound/bigsound_8.webp",
+      "bigsound/bigsound_9.webp",
+      "bigsound/bigsound_10.webp",
+      "bigsound/bigsound_11.webp",
+      "bigsound/bigsound_12.webp",
+      "bigsound/bigsound_13.webp",
+      "bigsound/bigsound_14.webp",
+      "bigsound/bigsound_15.webp"
     ],
-    "image": "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/especimen_century_gothic/especimen_century_gothic_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvZXNwZWNpbWVuX2NlbnR1cnlfZ290aGljL2VzcGVjaW1lbl9jZW50dXJ5X2dvdGhpY18xLndlYnAiLCJpYXQiOjE3NTk1MzU2MzcsImV4cCI6MzMzNjMzNTYzN30.T4GnX936cRFtZCRWe_8PJd7u2z-m-_6cCHJsiMo1IHA",
-    "link": "espcentury",
-    "images": [
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/especimen_century_gothic/especimen_century_gothic_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvZXNwZWNpbWVuX2NlbnR1cnlfZ290aGljL2VzcGVjaW1lbl9jZW50dXJ5X2dvdGhpY18xLndlYnAiLCJpYXQiOjE3NTk1MzU2MzcsImV4cCI6MzMzNjMzNTYzN30.T4GnX936cRFtZCRWe_8PJd7u2z-m-_6cCHJsiMo1IHA",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/especimen_century_gothic/CENTURY2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvZXNwZWNpbWVuX2NlbnR1cnlfZ290aGljL0NFTlRVUlkyLndlYnAiLCJpYXQiOjE3NTk1MzU3MTYsImV4cCI6MzMzNjMzNTcxNn0.RWk-OIyiglhgVLfRU43B0G483VsyoGcDbwdZ5TeLrLQ"
-    ]
+    "networks": {
+      "behance": "https://www.behance.net/gallery/221462599/Rebranding-Bigsound-Festival"
+    }
   },
   {
     "id": 2,
-    "name": "Retrato",
+    "name": "Espécimen Century Gothic",
     "descriptions": [
-      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "Espécimen tipográfico para la apublicatura Tipografía I, Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
     ],
-    "image": "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/ilustracion_retrato/ilustracion_retrato_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvaWx1c3RyYWNpb25fcmV0cmF0by9pbHVzdHJhY2lvbl9yZXRyYXRvXzEud2VicCIsImlhdCI6MTc1OTUzNjExOSwiZXhwIjozMzM2MzM2MTE5fQ.x88-6nJXazdIAVnbxeWl2tb3oiNTl3TcD3UtFReb-Vg",
-    "link": "retrato",
+    "image": "especimen_century_gothic/especimen_century_gothic_2.webp",
+    "link": "espcentury",
     "images": [
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/ilustracion_retrato/ilustracion_retrato_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvaWx1c3RyYWNpb25fcmV0cmF0by9pbHVzdHJhY2lvbl9yZXRyYXRvXzEud2VicCIsImlhdCI6MTc1OTUzNjExOSwiZXhwIjozMzM2MzM2MTE5fQ.x88-6nJXazdIAVnbxeWl2tb3oiNTl3TcD3UtFReb-Vg",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/ilustracion_retrato/ilustracion_retrato_2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvaWx1c3RyYWNpb25fcmV0cmF0by9pbHVzdHJhY2lvbl9yZXRyYXRvXzIud2VicCIsImlhdCI6MTc1OTUzNjE1NSwiZXhwIjozMzM2MzM2MTU1fQ.4oIbD6fd37dZMLPzpfgdOXogpm9w-e48h8cnJ7nKNM4",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/ilustracion_retrato/ilustracion_retrato_3.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvaWx1c3RyYWNpb25fcmV0cmF0by9pbHVzdHJhY2lvbl9yZXRyYXRvXzMud2VicCIsImlhdCI6MTc1OTUzNjE3MSwiZXhwIjozMzM2MzM2MTcxfQ.Ik8dvYuR4lkj4mq1O9uaA_dL3rIwSlgvcIa7RGE8FBM"
+      "especimen_century_gothic/especimen_century_gothic_1.webp",
+      "especimen_century_gothic/especimen_century_gothic_2.webp"
     ]
   },
   {
     "id": 3,
+    "name": "Retrato",
+    "descriptions": [
+      "Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+    ],
+    "image": "ilustracion_retrato/ilustracion_retrato_1.webp",
+    "link": "retrato",
+    "images": [
+      "ilustracion_retrato/ilustracion_retrato_1.webp",
+      "ilustracion_retrato/ilustracion_retrato_2.webp",
+      "ilustracion_retrato/ilustracion_retrato_3.webp"
+    ]
+  },
+  {
+    "id": 4,
     "name": "Vinilo Jay Wheeler",
     "descriptions": [
-      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
     ],
-    "image": "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/vinilo_jay_wheeler/vinilo_jay_wheeler_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvdmluaWxvX2pheV93aGVlbGVyL3Zpbmlsb19qYXlfd2hlZWxlcl8xLndlYnAiLCJpYXQiOjE3NTk1MzY1NzEsImV4cCI6MzMzNjMzNjU3MX0.Jgj_jSOpZaFnBR8HmLm3sYjgRcx6Jwf8mtenlD2xOAA",
+    "image": "vinilo_jay_wheeler/vinilo_jay_wheeler_0.webp",
     "link": "jaywheeler",
     "carrousel": true,
     "images": [
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/vinilo_jay_wheeler/vinilo_jay_wheeler_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvdmluaWxvX2pheV93aGVlbGVyL3Zpbmlsb19qYXlfd2hlZWxlcl8xLndlYnAiLCJpYXQiOjE3NTk1MzY1NzEsImV4cCI6MzMzNjMzNjU3MX0.Jgj_jSOpZaFnBR8HmLm3sYjgRcx6Jwf8mtenlD2xOAA",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/vinilo_jay_wheeler/vinilo_jay_wheeler_2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvdmluaWxvX2pheV93aGVlbGVyL3Zpbmlsb19qYXlfd2hlZWxlcl8yLndlYnAiLCJpYXQiOjE3NTk1MzY2MDUsImV4cCI6MzMzNjMzNjYwNX0.SwMZAThayEF5G1M1mu9WcqZozWOTiRuGFid303Pc0JM"
+      "vinilo_jay_wheeler/vinilo_jay_wheeler_1.webp",
+      "vinilo_jay_wheeler/vinilo_jay_wheeler_2.webp",
+      "vinilo_jay_wheeler/vinilo_jay_wheeler_3.webp"
     ],
     "networks": {
       "behance": "https://www.behance.net/gallery/201213551/Portada-Vinilo-Jay-Wheeler"
     }
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Locura Azteca",
     "descriptions": [
-      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
     ],
-    "image": "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/locura_azteca/locura_azteca_0.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvbG9jdXJhX2F6dGVjYS9sb2N1cmFfYXp0ZWNhXzAud2VicCIsImlhdCI6MTc2MDI2NDAwOSwiZXhwIjozMzM3MDY0MDA5fQ.8WTb5cKlwj0IBezqc_3G-dTsX1OqP6w2Wct2Tpncm00",
+    "image": "locura_azteca/locura_azteca_0.webp",
     "link": "locurazteca",
     "images": [
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/locura_azteca/locura_azteca_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvbG9jdXJhX2F6dGVjYS9sb2N1cmFfYXp0ZWNhXzEud2VicCIsImlhdCI6MTc1OTUzNzAzOCwiZXhwIjozMzM2MzM3MDM4fQ.KXiWOUwA4FdJdDLPn7MsjcJK-S7cZ7_G7JHoIljTzxU",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/locura_azteca/locura_azteca_2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvbG9jdXJhX2F6dGVjYS9sb2N1cmFfYXp0ZWNhXzIud2VicCIsImlhdCI6MTc1OTUzNzA3NywiZXhwIjozMzM2MzM3MDc3fQ.JVRXvzLLE5t0jN831rjKn6djyr1ZvLb2Hjt4-wNCg9c",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/locura_azteca/locura_azteca_3.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvbG9jdXJhX2F6dGVjYS9sb2N1cmFfYXp0ZWNhXzMud2VicCIsImlhdCI6MTc1OTUzNzA5NCwiZXhwIjozMzM2MzM3MDk0fQ.-9y85MUcu-jJtcdcvSW6CFGDULjzD35xmvKquBHRrxw",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/locura_azteca/locura_azteca_4.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvbG9jdXJhX2F6dGVjYS9sb2N1cmFfYXp0ZWNhXzQud2VicCIsImlhdCI6MTc1OTUzNzExMCwiZXhwIjozMzM2MzM3MTEwfQ.uZIQRDZ9vxk6o98i4GsOJ3cMlR3sArn_EGHwIQS9i6U",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/locura_azteca/locura_azteca_5.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvbG9jdXJhX2F6dGVjYS9sb2N1cmFfYXp0ZWNhXzUud2VicCIsImlhdCI6MTc1OTUzNzEyNiwiZXhwIjozMzM2MzM3MTI2fQ.GcVrfYe1ZI9dHumqQMO6GAXFNCFISJlFduZUPFCKvqI",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/locura_azteca/locura_azteca_6.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvbG9jdXJhX2F6dGVjYS9sb2N1cmFfYXp0ZWNhXzYud2VicCIsImlhdCI6MTc1OTUzNzE0MiwiZXhwIjozMzM2MzM3MTQyfQ.iQBewBXoHhtYQNR1VKc_6-m5BIW16AnpczxqtG_DhUI",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/locura_azteca/locura_azteca_7.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvbG9jdXJhX2F6dGVjYS9sb2N1cmFfYXp0ZWNhXzcud2VicCIsImlhdCI6MTc1OTUzNzE1NSwiZXhwIjozMzM2MzM3MTU1fQ.lr8jYTTeBUMyr58FcMBntvxQ3MSI0gZUQO8f9No8h2g"
-    ],
-    "networks": {
-      "behance": ""
-    }
+      "locura_azteca/locura_azteca_1.webp",
+      "locura_azteca/locura_azteca_2.webp",
+      "locura_azteca/locura_azteca_3.webp",
+      "locura_azteca/locura_azteca_4.webp",
+      "locura_azteca/locura_azteca_5.webp"
+    ]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Publicidad Vodka",
     "descriptions": [
-      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
     ],
-    "image": "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/publicidad_vodka/publicidad_vodka_2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvcHVibGljaWRhZF92b2RrYS9wdWJsaWNpZGFkX3ZvZGthXzIud2VicCIsImlhdCI6MTc2MDI2NzA4NywiZXhwIjozMzM3MDY3MDg3fQ.TX-gLM6z_BGodYXzqF6AJbSWIDiPzva3_EJCEGt3fIw",
+    "image": "publicidad_vodka/publicidad_vodka_0.webp",
     "link": "fotovodka",
     "images": [
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/publicidad_vodka/publicidad_vodka_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvcHVibGljaWRhZF92b2RrYS9wdWJsaWNpZGFkX3ZvZGthXzEud2VicCIsImlhdCI6MTc2MDI2NzAzNCwiZXhwIjozMzM3MDY3MDM0fQ.yPeSkZHuFBDTNcqpmTckoWSXwoZcy7dL1ctdZWGMyKI",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/publicidad_vodka/publicidad_vodka_2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvcHVibGljaWRhZF92b2RrYS9wdWJsaWNpZGFkX3ZvZGthXzIud2VicCIsImlhdCI6MTc2MDI2NzA4NywiZXhwIjozMzM3MDY3MDg3fQ.TX-gLM6z_BGodYXzqF6AJbSWIDiPzva3_EJCEGt3fIw",
-      "https://mgebbjesbpntpkrukaff.supabase.co/storage/v1/object/sign/portfolio_nerea/projects/publicidad_vodka/publicidad_vodka_3.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jZTc5ZTU0ZS0zZDBkLTRlYzQtYWNmMy04ZDc4NjhhMjc4ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwb3J0Zm9saW9fbmVyZWEvcHJvamVjdHMvcHVibGljaWRhZF92b2RrYS9wdWJsaWNpZGFkX3ZvZGthXzMud2VicCIsImlhdCI6MTc2MDI2NzEwOCwiZXhwIjozMzM3MDY3MTA4fQ.MCNqFNa2IKPEqkBDGd1MNq_QzI_Z1rJTmGJyz_72kZg"
+      "publicidad_vodka/publicidad_vodka_1.webp",
+      "publicidad_vodka/publicidad_vodka_2.webp",
+      "publicidad_vodka/publicidad_vodka_3.webp"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Diseño de envase",
+    "descriptions": [
+      "Bolsa de patatas con diseño inspirado en el movimiento pop art, destacando el uso de colores llamativos, puntos Ben-Day y uso de técnica mixta mediante una transparencia que deja ver el producto del interior."
+    ],
+    "image": "diseno_envase/diseno_envase_0.webp",
+    "link": "pollitosasados",
+    "images": [
+      "diseno_envase/diseno_envase_1.webp",
+      "diseno_envase/diseno_envase_2.webp"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Maracaba",
+    "descriptions": [
+      "Maracaba es una empresa ficticia de açai, importado desde Brasil a España, y exportado a Japón.",
+      "El logotipo se presenta con una tipografía manuscrita que aporta un aire fresco y natural.",
+      "La identidad visual se construye sobre una paleta cromática cálida: un tono melocotón que transmite calidez y cercanía, y tonos rosados, visualmente atractivos, reforzando el carácter dinámico y joven de la empresa. Estos se usan por ejemplo en las ilustraciones, que imitan el acabado de la acuarela para reforzar el valor manual de la marca."
+    ],
+    "image": "maracaba/maracaba_0.webp",
+    "link": "maracaba",
+    "images": ["maracaba/maracaba_1.webp", "maracaba/maracaba_2.webp"]
+  },
+  {
+    "id": 9,
+    "name": "Cartel Joker",
+    "descriptions": [
+      "Bolsa de patatas con diseño inspirado en el movimiento pop art, destacando el uso de colores llamativos, puntos Ben-Day y uso de técnica mixta mediante una transparencia que deja ver el producto del interior."
+    ],
+    "image": "cartel_joker/joker_0.webp",
+    "link": "cartel_joker",
+    "images": [
+      "cartel_joker/joker_1.webp",
+      "cartel_joker/joker_2.webp",
+      "cartel_joker/joker_3.webp"
     ]
   }
 ]
