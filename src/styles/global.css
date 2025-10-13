@@ -4,14 +4,15 @@
 @source "../../node_modules/flowbite";
 
 @font-face {
-  font-family: 'Love';
-  src: url('./../assets/love.otf') format('opentype');
+  font-family: "Love";
+  src: url("./../assets/love.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 body {
   background-color: #0b0b0b;
+  cursor: none !important;
   color: #fff;
   font-family:
     Helvetica,
@@ -30,4 +31,33 @@ body {
 
 .project_name {
   font-family: Courier;
+}
+
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition:
+    transform 0.15s ease-out,
+    width 0.2s,
+    height 0.2s;
+  z-index: 9999;
+
+  /* 🔮 Truco para invertir color según fondo */
+  /*mix-blend-mode: difference;*/
+  background: white;
+}
+
+/* Efecto de clic */
+.cursor.click {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: none;
 }

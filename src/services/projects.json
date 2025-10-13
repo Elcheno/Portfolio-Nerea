@@ -30,7 +30,7 @@
       "Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
     ],
     "image": "bigsound/bigsound_0.webp",
-    "image_portada": "bigsound/bigsound_1.webp",
+    "image_portada": "bigsound/bigsound_3.webp",
     "link": "bigsound",
     "video": {
       "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-nophic-studio.firebasestorage.app/o/bigsound%2Fbigsound_brandingtv.mp4?alt=media&token=ba5aebb7-815c-4c80-8095-e6c372aba0ff",
@@ -170,6 +170,28 @@
       "cartel_joker/joker_1.webp",
       "cartel_joker/joker_2.webp",
       "cartel_joker/joker_3.webp"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Track",
+    "descriptions": [
+      "Maracaba es una empresa ficticia de açai, importado desde Brasil a España, y exportado a Japón.",
+      "El logotipo se presenta con una tipografía manuscrita que aporta un aire fresco y natural.",
+      "La identidad visual se construye sobre una paleta cromática cálida: un tono melocotón que transmite calidez y cercanía, y tonos rosados, visualmente atractivos, reforzando el carácter dinámico y joven de la empresa. Estos se usan por ejemplo en las ilustraciones, que imitan el acabado de la acuarela para reforzar el valor manual de la marca."
+    ],
+    "image": "track/track_0.webp",
+    "link": "track",
+    "images": [
+      "track/track_1.webp",
+      "track/track_2.webp",
+      "track/track_3.webp",
+      "track/track_4.webp",
+      "track/track_5.webp",
+      "track/track_6.webp",
+      "track/track_7.webp",
+      "track/track_8.webp",
+      "track/track_9.webp"
     ]
   }
 ]
