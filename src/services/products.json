@@ -1,9 +1,21 @@
 [
   {
     "id": 1,
-    "uuid": "tshirt-badbunny",
-    "name": "Camiseta BadBunny",
-    "description": "Camiseta de algodón con estampado de BadBunny",
+    "uuid": "canvelia-candle-set",
+    "name": "Conjunto de Velas Aromáticas “Esencia del Trópico” Canvelia",
+    "image": "canvelia/canvelia_9.webp",
+    "images": [
+      "canvelia/canvelia_9.webp",
+      "canvelia/canvelia_8.webp",
+      "canvelia/canvelia_7.webp",
+      "canvelia/canvelia_6.webp",
+      "canvelia/canvelia_5.webp"
+    ],
+    "descriptions": [
+      "Inspiradas en los recuerdos cálidos y llenos de vida de la abuela colombiana de las fundadoras, este conjunto de tres velas aromáticas de Canvelia celebra la conexión entre los sentidos y las emociones.",
+      "Cada vela evoca un fragmento de ese hogar lleno de aromas naturales: piña, coco y mango. Tres fragancias que, combinadas, transportan a un verano eterno, al abrazo del sol y a la dulzura de lo artesanal.",
+      "Elaboradas a mano con cera vegetal y mechas de algodón, reflejan el compromiso de Canvelia con la sostenibilidad, la artesanía y el bienestar. Más que un conjunto de velas, es una invitación a reconectar con lo esencial: los recuerdos, la familia y la calidez de los pequeños detalles."
+    ],
     "price": 19.99
   }
 ]
