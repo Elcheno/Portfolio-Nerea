@@ -4,7 +4,8 @@
     "name": "Canvelia",
     "image": "canvelia/canvelia_0.webp",
     "descriptions": [
-      "La marca Canvelia es una marca ficticia creada por dos hermanas que crecieron en Andalucía pero cuya abuela materna era de Colombia. Su casa siempre olía a frutas y flores, y preparaba velas con recetas propias. Cuando ella falleció, las hermanas como homenaje, decidieron crear una marca de velas que une lo sensorial con lo emocional.",
+      "La marca Canvelia es una marca ficticia creada por dos hermanas que crecieron en Andalucía pero cuya abuela materna era de Colombia. Su casa siempre olía a frutas y flores, y preparaba velas con recetas propias.",
+      "Cuando ella falleció, las hermanas como homenaje, decidieron crear una marca de velas que une lo sensorial con lo emocional.",
       "Sus valores son el bienestas, artesanía, sostenibilidad y familia. El objetivo principal es rebalorizar lo hecho a mano además de fomentar el uso de productos más saludables y crear un vinculo emocional."
     ],
     "link": "canvelia",
@@ -27,7 +28,8 @@
     "id": 1,
     "name": "Bigsound",
     "descriptions": [
-      "Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "Rediseño del festival Bigsound, con una identidad más cercana y juvenil, teniendo en cuenta que la próxima edición se celebra en Granada.",
+      "Se desarrolla una tipografía personalizada y única, combinada con una paleta cromática fresca inspirada en la ciudad, además de la incorporación de una mascota corporativa que recibe el nombre de Bigsy."
     ],
     "image": "bigsound/bigsound_0.webp",
     "image_portada": "bigsound/bigsound_3.webp",
@@ -89,7 +91,8 @@
     "id": 4,
     "name": "Vinilo Jay Wheeler",
     "descriptions": [
-      "Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "Trabajo para la asignatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta.",
+      "Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
     ],
     "image": "vinilo_jay_wheeler/vinilo_jay_wheeler_0.webp",
     "link": "jaywheeler",
@@ -107,7 +110,8 @@
     "id": 5,
     "name": "Locura Azteca",
     "descriptions": [
-      "Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "Cambio de identidad visual para un local de comida mexicana para llevar.",
+      "El logotipo presenta una tipografía vertical y geométrica, que se combina con colores llamativos, gráficos modernos y una aplicación en distintos formatos, como packaging o el menú del local. Además, una mascota ilustrada, un personaje mexicano con el sombrero tradicional."
     ],
     "image": "locura_azteca/locura_azteca_0.webp",
     "link": "locurazteca",
@@ -123,7 +127,9 @@
     "id": 6,
     "name": "Publicidad Vodka",
     "descriptions": [
-      "Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "Publicidad de la marca Absolut Vodka.",
+      "Vemos varios ejemplos donde la marca usa juegos de palabras con su nombre (Absolutamente irresistible) por lo que se usa para seguir la misma línea. Como subtítulo “Absolut Raspberri” para aclarar el sabor del contenido de la botella, y en la parte inferior más información de la bebida y una recomendación que se suele poner en todos los comerciales de bebidas alcohólicas.",
+      "Se usan las tipografias propias de la marca, “Absolut Headline” “Absolut Handwritten” y “Absolut Sans”."
     ],
     "image": "publicidad_vodka/publicidad_vodka_0.webp",
     "link": "fotovodka",
@@ -137,7 +143,7 @@
     "id": 7,
     "name": "Diseño de envase",
     "descriptions": [
-      "Bolsa de patatas con diseño inspirado en el movimiento pop art, destacando el uso de colores llamativos, puntos Ben-Day y uso de técnica mixta mediante una transparencia que deja ver el producto del interior."
+      "Proyecto académico para la asignatura diseño aplicado al envase. Rediseño de “Pollitos Asados” de la marca Aspil, basado en el estilo Pop Art. Destaca el uso de colores llamativos, puntos Ben-Day y uso de técnica mixta mediante una transparencia que deja ver el producto del interior."
     ],
     "image": "diseno_envase/diseno_envase_0.webp",
     "link": "pollitosasados",
@@ -162,7 +168,8 @@
     "id": 9,
     "name": "Cartel Joker",
     "descriptions": [
-      "Bolsa de patatas con diseño inspirado en el movimiento pop art, destacando el uso de colores llamativos, puntos Ben-Day y uso de técnica mixta mediante una transparencia que deja ver el producto del interior."
+      "En primero de carrera realizamos un stencil, (una plantilla con una forma recortada que se usa para reproducir un diseño aplicando tinta, pintura o spray) decidí representar al Joker, ya que al hacerlo con spray se asocia con la rebeldía del personaje.",
+      "Posteriormente, para darle uso a este diseño , desarrollé un rediseño del cartel de la película."
     ],
     "image": "cartel_joker/joker_0.webp",
     "link": "cartel_joker",
@@ -176,9 +183,7 @@
     "id": 10,
     "name": "Track",
     "descriptions": [
-      "Maracaba es una empresa ficticia de açai, importado desde Brasil a España, y exportado a Japón.",
-      "El logotipo se presenta con una tipografía manuscrita que aporta un aire fresco y natural.",
-      "La identidad visual se construye sobre una paleta cromática cálida: un tono melocotón que transmite calidez y cercanía, y tonos rosados, visualmente atractivos, reforzando el carácter dinámico y joven de la empresa. Estos se usan por ejemplo en las ilustraciones, que imitan el acabado de la acuarela para reforzar el valor manual de la marca."
+      "La revista “Track” es una revista mensual ficticia que habla sobre los artistas más destacados de una ciudad o lugar diferente en cada número, en este caso se centra en Granada."
     ],
     "image": "track/track_0.webp",
     "link": "track",
