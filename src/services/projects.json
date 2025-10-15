@@ -64,7 +64,8 @@
     "id": 2,
     "name": "Espécimen Century Gothic",
     "descriptions": [
-      "Espécimen tipográfico para la apublicatura Tipografía I, Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "Espécimen tipografico de Century Gothic, una sans serif geométrica creada en 1991 para Monotype Imaging. El proyecto presenta un estudio de sus principales características, pesos y variantes tipográficas, así como su relación con la tipografía Futura.",
+      "Se destacan los principios geométricos que la definen (círculo, triángulo y simetría vertical) mediante una composición limpia que combina jerarquía tipográfica, contraste cromático y estructura equilibrada basada en una rejilla."
     ],
     "image": "especimen_century_gothic/especimen_century_gothic_2.webp",
     "link": "espcentury",
@@ -77,7 +78,7 @@
     "id": 3,
     "name": "Retrato",
     "descriptions": [
-      "Trabajo para la apublicatura Tipografía II, donde destaca el uso de tipografía gótica, realizada con pluma y tinta. Fotografía destinada a la portada del álbum “De mi para ti” de Jay Wheeler. Se añade esta información en tipografía manuscrita de forma digital."
+      "Retrato realizado a grafito en formato A3, con un estilo realista centrado en el estudio de luces y sombras."
     ],
     "image": "ilustracion_retrato/ilustracion_retrato_1.webp",
     "link": "retrato",
