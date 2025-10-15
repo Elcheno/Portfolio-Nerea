@@ -6,11 +6,7 @@ import { getImage } from "@services/firebase";
 const { project } = Astro.props;
 ---
 
-<a
-  href={`/projects/${project.link}`}
-  rel="noopener noreferrer"
-  class="!cursor-none"
->
+<a href={`/projects/${project.link}`} rel="noopener noreferrer">
   <div class="galery-item h-[20rem]">
     <Image
       src={getImage(project.image_portada ?? project.images[0])}

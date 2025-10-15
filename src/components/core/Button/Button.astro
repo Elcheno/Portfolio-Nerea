@@ -4,7 +4,7 @@ import "./Button.css";
 const { text, class: className } = Astro.props;
 ---
 
-<button class={`animated-button pointer ${className}`}>
+<button class={`animated-button ${className}`}>
   <span>{text}</span>
   <span></span>
 </button>

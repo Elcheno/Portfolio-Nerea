@@ -35,7 +35,7 @@
 .animated-button:hover {
   box-shadow: 0 0 0 5px #222222;
   color: #000000;
-  cursor: none;
+  cursor: pointer;
 }
 
 .animated-button:active {
