@@ -2,11 +2,14 @@
 import "./About.css";
 import { Image } from "astro:assets";
 import Foto from "@assets/Foto.webp";
+import ArrowToLeft from "@assets/ArrowToLeft.webp";
+import Goya_Logo from "@assets/Goya_Logo.webp";
+import Milnoff_Logo from "@assets/Milnoff_Logo.webp";
 ---
 
 <section
   id="about"
-  class="w-full lg:h-[60vh] flex items-center justify-center md:mt-0"
+  class="w-full flex flex-col md:my-20 gap-20 items-center justify-center"
 >
   <div
     class="w-[85%] lg:w-[80%] xl:w-[75%] 2xl:w-[60%] m-auto flex flex-col md:flex-row md:gap-16 items-center justify-center"
@@ -20,8 +23,15 @@ import Foto from "@assets/Foto.webp";
     </div>
 
     <div class="flex flex-col gap-1 justify-center self-end">
-      <div>
-        <h2 class="text-[1.5rem] font-[Rokkitt] text-[#D9FF71]">Sobre mí</h2>
+      <div class="max-w-min">
+        <Image
+          src={ArrowToLeft}
+          alt="Flecha hacia la izquierda"
+          class="w-full ml-[-3rem] hidden md:block"
+        />
+        <h2 class="text-nowrap text-[1.5rem] font-[Rokkitt] text-[#D9FF71]">
+          Sobre mí
+        </h2>
       </div>
 
       <div>
@@ -35,6 +45,37 @@ import Foto from "@assets/Foto.webp";
           />Cada proyecto es una oportunidad para crecer y aprender.
         </p>
       </div>
+
+      <div class="w-[50%] mt-5 flex flex-col gap-1 self-end">
+        <hr />
+        <div class="self-end">
+          <span
+            id="getCV"
+            class="hover:text-[#d9ff71] hover:cursor-pointer font-[Rokkitt] text-[1.3rem]"
+            >Descargar CV</span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-2 justify-center items-center">
+    <h2 class="text-[#d9ff71] font-[Rokkitt] text-[1.5rem]">Colaboraciones</h2>
+    <div class="flex flex-row gap-20 justify-center items-center">
+      <Image src={Goya_Logo} alt="" class="h-[90px] w-auto" />
+      <Image src={Milnoff_Logo} alt="" class="h-[90px] w-auto" />
     </div>
   </div>
 </section>
+
+<script>
+  const getCV = document.getElementById("getCV");
+  if (getCV) {
+    getCV.addEventListener("click", () => {
+      const link = document.createElement("a");
+      link.href = "/Curriculum_NereaPerezMontes.pdf";
+      link.download = "/Curriculum_NereaPerezMontes.pdf";
+      link.click();
+    });
+  }
+</script>
