@@ -4,7 +4,7 @@ import { Button } from "@components/core";
 ---
 
 <section
-  class="m-auto w-[80vw] md:w-full h-[65vh] md:h-[80vh] flex flex-col gap-36 mt-40 md:mt-0"
+  class="m-auto w-[80vw] md:w-full flex flex-col lg:gap-16 mt-40 md:mt-0"
 >
   <div
     class="w-full flex items-center justify-center md:justify-start md:pt-20 md:pl-24"
@@ -16,7 +16,19 @@ import { Button } from "@components/core";
       <br /> empieza aquí
     </p>
   </div>
-  <div id="contact" class="w-full flex items-center justify-center">
+
+  <div id="contact" class="w-full flex flex-col items-center justify-center">
+    <dotlottie-wc
+      src="/Eyes.lottie"
+      speed="1"
+      style="width: 175px; height: 175px"
+      mode="forward"
+      loop
+      autoplay></dotlottie-wc>
     <a href="/contact"><Button text="Contacta conmigo" /></a>
   </div>
+
+  <script
+    src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js"
+    type="module"></script>
 </section>
