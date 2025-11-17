@@ -7,11 +7,20 @@ const { backbtn } = Astro.props;
 ---
 
 <div
-  class="hidden w-full md:h-[150px] md:flex items-center p-8 md:p-12 fixed top-0 z-1000"
+  class="w-full h-[100px] md:h-[150px] flex items-center p-8 md:p-12 fixed top-0 z-1000"
 >
-  <div class="flex gap-6 bg-[#0B0B0B] py-4 px-6 rounded-full items-center">
-    <a href="/" class="hover:cursor-none"
-      ><Image src={Logo} alt="" height={50} width={50} loading="lazy" /></a
+  <div
+    class="flex gap-6 bg-[#0B0B0B] py-3 px-4 md:py-4 md:px-6 rounded-full items-center"
+  >
+    <a href="/"
+      ><Image
+        src={Logo}
+        alt=""
+        height={50}
+        width={50}
+        loading="lazy"
+        class="w-[30px] h-[30px] md:w-[50px] md:h-[50px]"
+      /></a
     >
     {backbtn && <BackButton url="" />}
   </div>

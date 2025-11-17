@@ -10,7 +10,7 @@ import { getImage } from "@services/firebase";
   project && (
     <a
       href={`/projects/${project.link}`}
-      class="item w-full h-[30vh] md:w-[0] md:h-auto md:hover:w-[100px]"
+      class="item w-full h-[30vh] lg:w-[0] lg:h-auto lg:hover:w-[100px]"
     >
       <Image
         src={getImage(project.image_portada ?? project.images[0])}
